@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<InsuranceData>
+  <InsuranceList>
+    <Name>Access</Name>
+    <Partner>1</Partner>
+    <Referral>2</Referral>
+    <Plans>0</Plans>
+    <Requirements>PA plans only/self pay for out of state plans</Requirements>
+  </InsuranceList>
+  <InsuranceList>
+    <Name>Access Plus</Name>
+    <Partner>1</Partner>
+    <Referral>2</Referral>
+    <Plans>0</Plans>
+    <Requirements>Record PCP phone number in chart</Requirements>
+  </InsuranceList>
+</InsuranceData>

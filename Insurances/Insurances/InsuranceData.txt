@@ -1,0 +1,45 @@
+45
+Access_1_2_0_PA plans only/self pay for out of state plans
+Access Plus_1_2_0_Record PCP phone number in chart
+Accendo Insurance Company_0_2_0_I am not sure if this is secondary only. Please speak to your Billing Department or Office Administrator for more details!
+Advantra Freedom_1_2_0_We accept!
+Advantra Medicare Advantage Plan_1_2_0_We accept!
+Advantra One_1_2_0_We accept!
+Aetna_1_2_0_We accept!
+Aetna Advantra Cares (HMO SNP)(Coventry Medicare)_1_2_0_We accept!
+Aetna Better Health_2_2_1_We do not accept!
+Aetna Better Health For Kids_9_2_1_Secondary only, but if primary, then it needs OON benefits; otherwise we do not accept!
+Aetna Blue_0_0_0_I am not sure if we do accept this. Please speak to your Billing Department or Office Administrator for more details!
+Aetna First Health_1_2_0_We accept!
+Aetna Longevity_4_2_0_Secondary only!
+Aetna POS_1_2_0_We accept!
+Aetna Medicare Advantage PPO ESA SHBP SEHBP Educators_1_2_0_We accept!
+Aetna Meritain Health_1_2_0_We accept!
+Aetna NAP MultiPlan_1_2_0_We accept!
+Aetna Open Choice PPO_1_2_0_We accept!
+All Savers Insurance Company_2_2_1_We do not accept!
+AmBetter Health_2_2_1_We do not accept!
+Americhoice_2_2_1_We do not accept!
+AmeriHealth Administrators_1_2_0_We accept!
+AmeriHealth Caritas_7_2_0_Watson only until the patient is 21 years old!
+AmeriHealth Community Health Choices_5_2_0_Secondary only to Medicare!
+AmeriHealth Mercy_0_0_0_I am not sure if we do accept this. Please speak to your Billing Department or Office Administrator for more details!
+AmeriHealth Northeast_7_1_0_Watson only until the patient is 21 years old! It also needs a referral from the insurance before coming in!
+AmeriHealth New Jersey_1_2_0_We accept!
+AmeriHealth Delaware_1_2_0_We accept!
+AmeriHealth 65_1_1_0_We accept, but a referral is needed before the patient can be accommodated.
+AmeriHealth VIP_7_2_0_Watson only until the patient is 21 years old!
+Berkshire Health Plan (BHP)_1_2_0_We accept!
+Blue Cross Blue Shield_1_2_0_We accept!
+Blue Cross Blue Shield Federal Employee Program_1_2_0_We accept!
+Blue Journey_1_2_0_We accept!
+Boon Chapman (Aetna Insurance)_1_2_0_We accept!
+Bravo Medicare_2_2_1_We do not accept!
+Braven Insurance (Blue Shield New Jersey)_1_2_0_We accept!
+Capital Blue Cross_1_2_0_We accept!
+CareFirst Blue Cross_1_2_0_We accept!
+ChampVA_1_2_0_We accept!
+Cigna_1_2_0_We accept!
+Cigna Open Access_1_2_0_We accept!
+Cigna TotalCare HMO D SNP_2_2_1_We do not accept!
+Devon_1_2_0_We accept!
