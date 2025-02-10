@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<InsuranceList>
-  <InsuranceDefiner Name="Access" Partnered="1" Referral="2" Plans="0" Requirements="PA plans only/self pay for out of state plans"/>
-  <InsuranceDefiner Name="Access Plus" Partnered="1" Referral="2" Plans="0" Requirements="Record PCP phone number in chart"/>
-</InsuranceList>
