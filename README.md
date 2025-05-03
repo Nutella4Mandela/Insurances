@@ -15,5 +15,5 @@ To choose your primary insurance, you must click on the box on the left side of 
 <br/>
 ![image](Images/DropDown.png)
 <br/>
-Once you pick a primary insurance that the patient has, you are ready to press the confirm button to see if they accept the insurance with this doctor. In my example, I chose "UPMC For You" as the primary insurance and "Loomis" as the secondary insurance. Simple as that!
+Once you pick a primary insurance that the patient has, you are ready to press the confirm button to see if they accept the insurance with this doctor. In my example, I chose "UPMC For You" as the primary insurance and "Loomis" as the secondary insurance. Simple as that! That's all there is to it!
 <br/>
