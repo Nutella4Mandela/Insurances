@@ -15,3 +15,7 @@ In this example, I chose my doctor to be Dr. Wilson. As soon as I clicked and ma
 <br/>
 To choose your primary insurance, you must click on the box on the left side of the screen. Once you do, it will show a dropdown list of all of the available insurances that are listed in a text file called "InsuranceData.txt". 
 <br/>
+![image](Images/DropDown.png)
+<br/>
+Once you pick a primary insurance that the patient has, you are ready to press the confirm button to see if they accept the insurance with this doctor. In my example, I chose "UPMC For You" as the primary insurance and "Loomis" as the secondary insurance. Simple as that!
+<br/>
