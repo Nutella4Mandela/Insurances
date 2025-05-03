@@ -1,52 +1,127 @@
-51
+126
 Access_1_2_0_PA plans only/self pay for out of state plans
 Access Plus_1_2_0_Record PCP phone number in chart
 Accendo Insurance Company_5_2_0_This is a secondary only to Medicare!
 Advantra Freedom_1_2_0_We accept!
 Advantra Medicare Advantage Plan_1_2_0_We accept!
 Advantra One_1_2_0_We accept!
-Aetna_1_2_0_We accept!
-Aetna Advantra Cares_1_2_0_We accept!
-Aetna Better Health_2_2_1_We do not accept!
-Aetna Better Health For Kids_9_2_1_Secondary only, but if primary, then it needs OON benefits; otherwise we do not accept!
-Aetna Blue_1_2_0_We accept!
-Aetna First Health_1_2_0_We accept!
-Aetna Longevity_4_2_0_Secondary only!
-Aetna POS_1_2_0_We accept!
-Aetna Medicare Advantage PPO ESA SHBP SEHBP Educators_1_2_0_We accept!
-Aetna Meritain Health_1_2_0_We accept!
-Aetna NAP MultiPlan_1_2_0_We accept!
-Aetna Open Choice PPO_1_2_0_We accept!
-All Savers Insurance Company_2_2_1_We do not accept!
-AmBetter Health_2_2_1_We do not accept!
-Americhoice_2_2_1_We do not accept!
+Aetna_1_2_1_We accept!
+Aetna Advantra Cares_1_2_1_We accept!
+Aetna Better Health_2_2_0_We do not accept!
+Aetna Better Health For Kids_8_2_1_Secondary only, but if primary, then it needs OON benefits; otherwise we do not accept!
+Aetna Blue_1_2_1_We accept!
+Aetna First Health_1_2_1_We accept!
+Aetna Longevity_4_2_1_Secondary only!
+Aetna POS_1_2_1_We accept!
+Aetna Medicare Advantage PPO ESA SHBP SEHBP Educators_1_2_1_We accept!
+Aetna Meritain Health_1_2_1_We accept!
+Aetna NAP MultiPlan_1_2_1_We accept!
+Aetna Open Choice PPO_1_2_1_We accept!
+All Savers Insurance Company_2_2_0_We do not accept!
+AmBetter Health_2_2_0_We do not accept!
+Americhoice_2_2_0_We do not accept!
 AmeriHealth Administrators_1_2_0_We accept!
-AmeriHealth Caritas_7_2_0_Watson only until the patient is 21 years old!
+AmeriHealth Caritas_6_2_3_Watson only until the patient is 21 years old!
 AmeriHealth Community Health Choices_5_2_0_Secondary only to Medicare!
-AmeriHealth Mercy_0_0_0_I am not sure if we do accept this. Please speak to your Billing Department or Office Administrator for more details!
-AmeriHealth Northeast_7_1_0_Watson only until the patient is 21 years old! It also needs a referral from the insurance before coming in!
-AmeriHealth New Jersey_1_2_0_We accept!
-AmeriHealth Delaware_1_2_0_We accept!
-AmeriHealth 65_1_1_0_We accept, but a referral is needed before the patient can be accommodated.
-AmeriHealth VIP_7_2_0_Watson only until the patient is 21 years old!
+AmeriHealth Mercy_1_2_1_We accept!
+AmeriHealth Northeast_6_1_3_Watson only until the patient is 21 years old! It also needs a referral from the insurance before coming in!
+AmeriHealth New Jersey_1_2_1_We accept!
+AmeriHealth Delaware_1_2_1_We accept!
+AmeriHealth 65_1_1_1_We accept, but a referral is needed before the patient can be accommodated.
+AmeriHealth VIP_6_2_3_Watson only until the patient is 21 years old!
 Berkshire Health Plan_1_2_0_We accept!
-Blue Cross Blue Shield_1_2_0_We accept!
-Blue Cross Blue Shield Federal Employee Program_1_2_0_We accept!
+Blue Cross Blue Shield_1_2_1_We accept!
+Blue Cross Blue Shield Federal Employee Program_1_2_1_We accept!
 Blue Journey_1_2_0_We accept!
 Boon Chapman_1_2_0_We accept!
-Bravo Medicare_2_2_1_We do not accept!
-Braven Insurance/Blue Shield New Jersey_1_2_0_We accept!
+Bravo Medicare_2_2_0_We do not accept!
+Braven Insurance/Blue Shield New Jersey_1_2_1_We accept!
 Capital Blue Cross_1_2_0_We accept!
+Capital Blue Cross Keystone Central_1_1_0_We accept, but a referral is needed before the patient can be accommodated.
+Capital Blue Cross Keystone East_1_1_0_We accept, but a referral is needed before the patient can be accommodated.
 CareFirst Blue Cross_1_2_0_We accept!
-ChampVA_1_2_0_We accept!
-Cigna_1_2_0_We accept!
-Cigna Open Access_1_2_0_We accept!
-Cigna TotalCare HMO D SNP_2_2_1_We do not accept!
+ChampVA_1_2_1_We accept!
+Cigna_1_2_1_We accept!
+Cigna Open Access_1_2_1_We accept!
+Cigna TotalCare HMO D SNP_2_2_0_We do not accept!
 Devon_1_2_0_We accept!
-Emblem Health_2_2_1_We do not accept!
+Emblem Health_2_2_0_We do not accept!
 Empire Plan_0_0_0_I am not sure if we do accept this. Please speak to your Billing Department or Office Administrator for more details!
 Erin Group_1_2_0_We accept!
 Everence Medicare Supplemental_5_2_0_Secondary only to Medicare!
-Excellus Simplyblue Gold Blue Cross_1_2_0_We accept!
-Geisinger_1_2_0_We accept!
-Geisinger Kids(CHIP)_1_2_0_We accept!
+Excellus Simplyblue Gold Blue Cross_1_2_1_We accept!
+Geisinger_1_2_1_We accept!
+Geisinger Kids(CHIP)_1_2_1_We accept!
+Geisinger Family Health_2_2_1_We do not accept!
+Geisinger Health Choices_2_2_1_We do not accept!
+Geisinger Health Healthy Connect_2_2_1_We do not accept!
+Geisinger MKTPLC Solutions or HMO_1_2_1_We accept!
+Geisinger Gold_1_2_1_We accept!
+Golden Rule_2_2_0_We do not accept!
+Great Southern Life Insurance_5_2_1_Secondary only to Medicare!
+Health Partner_2_2_0_We do not accept!
+Healthy America/America Assurance_1_2_1_We accept!
+Healthy PA_1_2_1_We accept!
+Highmark Blue Shield_1_2_1_We accept!
+Highmark Community Blue Medicare PPO_1_2_1_We accept!
+Highmark Healthy Kids(CHIP)_1_2_1_We accept!
+Highmark My Blue Access EPO_1_2_1_We accept!
+Highmark PPO Blue_1_2_1_We accept!
+Highmark My Direct Blue_2_2_0_We do not accept!
+Highmark Wholecare(Gateway)_2_2_0_We do not accept!
+Humana Choice PPO(Medicare Plan)_1_2_1_We accept!
+Humana Gold Choice/Choice PFFS_1_2_1_We accept!
+Humana Gold Plus HMO or HMO D-SNP_2_2_0_We do not accept!
+Humana Medicare PPO Portico Benefits_1_2_1_We accept!
+Humana ChoiceCare Network PPO_1_2_3_Watson only!
+Humana Choice POS_1_2_3_Watson only!
+Humana National POS-Open Access_1_2_3_Watson only!
+Humana Sapphire_1_2_3_Watson only!
+Imagine Health_2_2_0_We do not accept!
+Independence Blue Cross_1_2_1_We accept!
+Independence Blue Cross Community Keystone Connect_1_2_1_We accept!
+Independence Personal Choice_1_2_1_We accept!
+Jefferson Central Partners Medicaid_2_2_0_We do not accept!
+Loomis_1_2_1_We accept!
+Lumico Medicare Supplemental_5_2_0_Secondary only to Medicare!
+Medicare_1_2_0_We accept!
+Medishare_2_2_0_We do not accept!
+PA Health and Wellness_4_2_1_Secondary only!
+PEBTF_5_2_0_Secondary only to Medicare!
+Philadelphia American Life Insurance Company_4_2_1_Secondary only!
+PPHN_1_2_0_We accept!
+Qual Care_3_2_1_Patient must have OON Benefits!
+Quest Behavioral Health_2_2_0_We do not accept!
+Significa_1_2_1_We accept!
+State Farm Prime Health Services_5_2_0_Secondary only to Medicare!
+Surest_2_2_0_We do not accept!
+Teamsters_1_2_0_We accept!
+Transamerica_5_2_0_Secondary only to Medicare!
+Tricare Extra_2_2_0_We do not accept!
+Tricare Prime_5_2_0_Secondary only to Medicare!
+Tricare Reserve Select_1_2_0_We accept!
+Tricare Select(Formerly Standard)_1_2_0_We accept!
+Trustmark Benefits_1_2_0_We accept!
+UMR_3_2_1_Patient must have OON Benefits!
+United Healthcare_3_2_1_Patient must have OON Benefits!
+United Healthcare AARP Medicare Complete_2_2_0_We do not accept!
+United Healthcare AARP Medicare Advantage HMO_2_2_0_We do not accept!
+United Healthcare AARP Medicare Advantage PPO_1_2_0_We accept!
+United Healthcare Choice Plus EPO_3_2_1_Patient must have OON Benefits!
+United Healthcare Choice Plus PPO_3_2_1_Patient must have OON Benefits!
+United Healthcare Community Plan(CHIP)_6_2_3_Watson only until the patient is 21 years old!
+United Healthcare Gold Plan_6_2_3_Watson only until the patient is 21 years old!
+United Healthcare Gold Rule_2_2_0_We do not accept!
+United Healthcare Medicare Advantage PPO_1_2_1_We accept!
+United Healthcare Medicare Advantage HMO_2_2_0_We do not accept!
+Unity_1_2_1_We accept!
+UPMC Advantage Silver EPO_1_2_1_We accept!
+UPMC Community Health Choices_4_2_1_Secondary only!
+UPMC For Kids_1_2_1_We accept!
+UPMC For Life_1_2_1_We accept!
+UPMC For Life Dual HMO_2_2_0_We do not accept!
+UPMC For You_1_2_1_We accept!
+UPMC Healthy PA_2_2_0_We do not accept!
+Vibra_1_2_1_We accept!
+Wellcare_1_2_1_We accept!
+Wellcare Community Health Choices_2_2_0_We do not accept!

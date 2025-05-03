@@ -9,7 +9,7 @@ public class InsuranceDefine
     public string insuranceName { get; set; }
     public int isPartnered { get; set; }
     public int needReferral { get; set; }
-    public int hasPlans { get; set; }
+    public int accept { get; set; }
     public string otherRequire { get; set; }
 
     public override string ToString()

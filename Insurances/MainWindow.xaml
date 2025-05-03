@@ -198,8 +198,8 @@
                         </Border>
                     </theme:SystemDropShadowChrome>
                 </Popup>
-                <ToggleButton x:Name="toggleButton" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Grid.ColumnSpan="2" IsChecked="{Binding IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource Mode=TemplatedParent}}" Style="{StaticResource ComboBoxToggleButton}"/>
-                <Border x:Name="border" Background="{StaticResource TextBox.Static.Background}" Margin="{TemplateBinding BorderThickness}">
+                <ToggleButton x:Name="toggleButton" Background="#FF320A5B" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Grid.ColumnSpan="2" IsChecked="{Binding IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource Mode=TemplatedParent}}" Style="{StaticResource ComboBoxToggleButton}" Foreground="#FFD20000"/>
+                <Border x:Name="border" Background="#FF320A5B" Margin="{TemplateBinding BorderThickness}">
                     <TextBox x:Name="PART_EditableTextBox" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" IsReadOnly="{Binding IsReadOnly, RelativeSource={RelativeSource Mode=TemplatedParent}}" Margin="{TemplateBinding Padding}" Style="{StaticResource ComboBoxEditableTextBox}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
                 </Border>
             </Grid>
@@ -212,7 +212,7 @@
                 </Trigger>
                 <Trigger Property="HasDropShadow" SourceName="PART_Popup" Value="true">
                     <Setter Property="Margin" TargetName="shadow" Value="0,0,5,5"/>
-                    <Setter Property="Color" TargetName="shadow" Value="#71000000"/>
+                    <Setter Property="Color" TargetName="shadow" Value="#71EC2323"/>
                 </Trigger>
                 <Trigger Property="HasItems" Value="false">
                     <Setter Property="Height" TargetName="dropDownBorder" Value="95"/>
@@ -241,7 +241,7 @@
                         <Border x:Name="dropDownBorder" BorderBrush="{DynamicResource {x:Static SystemColors.WindowFrameBrushKey}}" BorderThickness="1">
                             <Border.Background>
                                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                    <GradientStop Color="#FF3B006F" Offset="0"/>
+                                    <GradientStop Color="#FF3E0273" Offset="0"/>
                                     <GradientStop Color="Black" Offset="1"/>
                                 </LinearGradientBrush>
                             </Border.Background>
@@ -296,7 +296,7 @@
             <Style.Triggers>
                 <Trigger Property="IsEditable" Value="true">
                     <Setter Property="IsTabStop" Value="false"/>
-                    <Setter Property="Padding" Value="2"/>
+                    <Setter Property="Padding" Value="0"/>
                     <Setter Property="Template" Value="{StaticResource ComboBoxEditableTemplate}"/>
                 </Trigger>
             </Style.Triggers>
@@ -323,11 +323,20 @@
                     <DropShadowEffect/>
                 </ComboBox.Effect>
             </ComboBox>
-            <RadioButton Content="Dr.Kao" Margin="134,72,581,303" MinHeight="100" MinWidth="0" MaxWidth="90"  Foreground="White" Checked="RadioButton_Checked" />
-            <RadioButton Content="Dr.Mueller" Margin="282,72,433,303" MinHeight="0" MinWidth="0" MaxWidth="90"  Foreground="White" Checked="RadioButton_Checked_1" />
-            <RadioButton Content="Dr.Watson" Margin="424,72,291,303" MinHeight="0" MinWidth="0" MaxWidth="90"  Foreground="White" Checked="RadioButton_Checked_2" />
-            <RadioButton Content="PA Dropcho" Margin="569,72,146,303" MinHeight="0" MinWidth="0" MaxWidth="90"  Foreground="White" Checked="RadioButton_Checked_3" />
-            <TextBlock x:Name="Confirm1st" HorizontalAlignment="Left" Margin="138,377,0,0" MinWidth="0" MinHeight="30" Text="TextBlock" TextAlignment="Center" VerticalAlignment="Top" Height="28" Width="128" TextWrapping="Wrap" Visibility="Hidden" FontWeight="Bold"/>
+            <RadioButton x:Name="Kao" Margin="134,72,581,303" MinHeight="100" MinWidth="0" MaxWidth="90"  Foreground="#FFFF7171" Checked="RadioButton_Checked">
+                <Image x:Name="Image1" Source="/Pictures/Kao.png"/>
+            </RadioButton>
+            <RadioButton x:Name="Mueller" Margin="282,72,433,303" MinHeight="0" MinWidth="0" MaxWidth="90"  Foreground="White" Checked="RadioButton_Checked_1" >
+                <Image x:Name="Image2" Source="/Pictures/Dr. Mueller.png"/>
+            </RadioButton>
+            <RadioButton x:Name="Watson" Margin="424,72,291,303" MinHeight="0" MinWidth="0" MaxWidth="90"  Foreground="White" Checked="RadioButton_Checked_2" >
+            <Image x:Name="Image3" Source="/Pictures/Dr. Watson.png"/>
+            </RadioButton>
+            <RadioButton x:Name="Dropcho" Margin="569,72,146,303" MinHeight="0" MinWidth="0" MaxWidth="90"  Foreground="White" Checked="RadioButton_Checked_3" >
+            <Image x:Name="Image4" Source="/Pictures/PA Dropcho.png"/>
+            </RadioButton>
+            <TextBlock x:Name="Confirm1st" HorizontalAlignment="Left" Margin="138,377,0,0" MinWidth="0" MinHeight="30" Text="TextBlock" TextAlignment="Center" VerticalAlignment="Top" Height="42" Width="128" TextWrapping="Wrap" FontWeight="Bold" Visibility="Hidden"/>
+            <TextBlock x:Name="Confirm2nd" HorizontalAlignment="Left" Margin="565,377,0,0" MinWidth="0" MinHeight="30" Text="TextBlock" TextAlignment="Center" VerticalAlignment="Top" Height="42" Width="128" TextWrapping="Wrap" FontWeight="Bold" Visibility="Hidden"/>
             <Button x:Name="Confirm" HorizontalAlignment="Center" Margin="0,390,0,0" VerticalAlignment="Top" Width="78" Height="29" Click="Button_Click" IsCancel="True" Content="Confirm" Visibility="Hidden"/>
 
         </Grid>

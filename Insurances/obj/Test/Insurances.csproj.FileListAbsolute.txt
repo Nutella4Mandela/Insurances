@@ -1,0 +1,13 @@
+G:\ETC\Portfolio Stuff\Insurances\Insurances\bin\Test\Insurances.exe.config
+G:\ETC\Portfolio Stuff\Insurances\Insurances\bin\Test\Insurances.exe
+G:\ETC\Portfolio Stuff\Insurances\Insurances\obj\Test\Insurances.csproj.AssemblyReference.cache
+G:\ETC\Portfolio Stuff\Insurances\Insurances\obj\Test\MainWindow.g.cs
+G:\ETC\Portfolio Stuff\Insurances\Insurances\obj\Test\App.g.cs
+G:\ETC\Portfolio Stuff\Insurances\Insurances\obj\Test\Insurances_MarkupCompile.cache
+G:\ETC\Portfolio Stuff\Insurances\Insurances\obj\Test\Insurances_MarkupCompile.lref
+G:\ETC\Portfolio Stuff\Insurances\Insurances\obj\Test\MainWindow.baml
+G:\ETC\Portfolio Stuff\Insurances\Insurances\obj\Test\Insurances.g.resources
+G:\ETC\Portfolio Stuff\Insurances\Insurances\obj\Test\Insurances.Properties.Resources.resources
+G:\ETC\Portfolio Stuff\Insurances\Insurances\obj\Test\Insurances.csproj.GenerateResource.cache
+G:\ETC\Portfolio Stuff\Insurances\Insurances\obj\Test\Insurances.csproj.CoreCompileInputs.cache
+G:\ETC\Portfolio Stuff\Insurances\Insurances\obj\Test\Insurances.exe

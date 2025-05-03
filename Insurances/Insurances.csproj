@@ -49,6 +49,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test|AnyCPU'">
+    <OutputPath>bin\Test\</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="PresentationFramework.Aero2" />
     <Reference Include="System" />
@@ -80,7 +83,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="InsuranceDefine.cs" />
-    <Compile Include="InsuranceDefiner.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -129,10 +131,16 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="_data\InsuranceData.xml" />
+    <Resource Include="Pictures\Dr. Mueller.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="NICE.PNG" />
+    <Resource Include="Pictures\Dr. Watson.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pictures\Kao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pictures\PA Dropcho.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
