@@ -3,3 +3,4 @@ This is a project I made from when I was working as a medical assistant and chec
 For example: some insurances require a few set of conditions in order for them to be seen, such as if they are a pediatric patient, if this a secondary only to a very specific insurance, or if they have out of network benefits! I made it easier for schedulers to make appointments and verify if we accept any insurance that the patients have. It was a fun little project of mine and it helped me learn so much about insurances.
 
 # How to use
+![image](Images/Interface.png)
