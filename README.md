@@ -9,4 +9,9 @@ You have four doctors that you can choose from; each with their respected colors
 <br/>
 ![image](Images/Example1.png)
 <br/>
-In this example, I chose my doctor to be Dr. Wilson. As soon as I clicked and made my decision, a button that states "Confirm" suddenly appeared in the screen. Note that if you press the Confirm button without interacting with the primary insurance box, you will get an error that states that you must choose a primary insurance before moving forward. 
+In this example, I chose my doctor to be Dr. Wilson. As soon as I clicked and made my decision, a button that states "Confirm" suddenly appeared in the screen. Note that if you press the Confirm button without interacting with the primary insurance box, you will get an error that states that you must choose a primary insurance before moving forward. A screenshot of that happening is shown here.
+<br/>
+![image](Images/Error.png)
+<br/>
+To choose your primary insurance, you must click on the box on the left side of the screen. Once you do, it will show a dropdown list of all of the available insurances that are listed in a text file called "InsuranceData.txt". 
+<br/>
