@@ -33,30 +33,37 @@ namespace Insurances
 
 
             InitializeComponent();
-            string[] lines = System.IO.File.ReadAllLines("InsuranceData.txt");
-            int size = Convert.ToInt32(lines[0]);
-            InsuranceDefine[] insurances = new InsuranceDefine[size];
-            for (int index = 0; index < size; index++)
+            try
             {
-                string[] tokens = lines[index + 1].Split('_');
-                insurances[index] = new InsuranceDefine();
+                string[] lines = System.IO.File.ReadAllLines("InsuranceData.txt");
+                int size = Convert.ToInt32(lines[0]);
+                InsuranceDefine[] insurances = new InsuranceDefine[size];
+                for (int index = 0; index < size; index++)
                 {
-                    InsuranceName = tokens[0];
-                    IsPartnered = Convert.ToInt32(tokens[1]);
-                    NeedReferral = Convert.ToInt32(tokens[2]);
-                    Accept = Convert.ToInt32(tokens[3]);
-                    Other = tokens[4];
+                    string[] tokens = lines[index + 1].Split('_');
+                    insurances[index] = new InsuranceDefine();
+                    {
+                        InsuranceName = tokens[0];
+                        IsPartnered = Convert.ToInt32(tokens[1]);
+                        NeedReferral = Convert.ToInt32(tokens[2]);
+                        Accept = Convert.ToInt32(tokens[3]);
+                        Other = tokens[4];
+                    }
+                    InsuranceDefine insuranceDefine = new InsuranceDefine { insuranceName = InsuranceName, isPartnered = IsPartnered, needReferral = NeedReferral, accept = Accept, otherRequire = Other };
+
+                    ComboCompany.Items.Add(insuranceDefine);
+                    ComboX.Items.Add(insuranceDefine);
+
                 }
-                InsuranceDefine insuranceDefine = new InsuranceDefine { insuranceName = InsuranceName, isPartnered = IsPartnered, needReferral = NeedReferral, accept = Accept, otherRequire = Other };
 
-                ComboCompany.Items.Add(insuranceDefine);
-                ComboX.Items.Add(insuranceDefine);
 
+                ComboCompany.SelectionChanged += ComboBox_SelectionChanged;
             }
-
-
-            ComboCompany.SelectionChanged += ComboBox_SelectionChanged;
-
+            catch(Exception)
+            {
+                MessageBox.Show("Please check your InsuranceData.txt file for any inconsistencies and try again!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                this.Close();
+            }
 
         }
 
@@ -98,8 +105,27 @@ namespace Insurances
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             InsuranceDefine selectedDefiner = ComboCompany.SelectedItem as InsuranceDefine;
-
             InsuranceDefine selectedDefine = ComboX.SelectedItem as InsuranceDefine;
+            bool same = false;
+
+            if (selectedDefine != null && selectedDefiner != null)
+            {
+                switch (selectedDefine.insuranceName == selectedDefiner.insuranceName)
+                {
+                    case true:
+                        Confirm1st.Visibility = Visibility.Hidden;
+                        Confirm2nd.Visibility = Visibility.Hidden;
+                        selectedDefine = null;
+                        selectedDefiner = null;
+                        MessageBox.Show("You cannot choose the same insurance in each box!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                        same = true;
+                        break;
+                    case false:
+                        same = false;
+                        break;
+                }
+            }
+
 
             if (selectedDefiner != null)
             {
@@ -198,6 +224,7 @@ namespace Insurances
 
                     default:
                         Confirm1st.Visibility = Visibility.Hidden;
+                        MessageBox.Show("Please check your insuranceData.txt file for this insurance!", $"{selectedDefiner.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
                         break;
                 }
 
@@ -259,9 +286,11 @@ namespace Insurances
                         break;
                 }
             }
-            else
+            else if(same == false)
             {
                 MessageBox.Show("You must choose a primary insurance!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                selectedDefine = null;
+                selectedDefiner = null;
             }
 
 
@@ -305,19 +334,20 @@ namespace Insurances
                         Confirm2nd.Foreground = Brushes.Green;
                         break;
                     case 5:
-                        if(selectedDefiner.insuranceName == "Medicare")
-                        {
-                            Confirm2nd.Visibility = Visibility.Visible;
-                            Confirm2nd.Text = "We accept this Insurance!";
-                            Confirm2nd.Foreground = Brushes.Green;
-                        }
-                        else
-                        {
-                            MessageBox.Show("This insurance must be a secondary only to Medicare...", $"{selectedDefine.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
-                            Confirm2nd.Visibility = Visibility.Visible;
-                            Confirm2nd.Text = "We cannot accept this insurance...";
-                            Confirm2nd.Foreground = Brushes.Red;
-                        }
+                        
+                            if (selectedDefiner.insuranceName == "Medicare")
+                            {
+                                Confirm2nd.Visibility = Visibility.Visible;
+                                Confirm2nd.Text = "We accept this Insurance!";
+                                Confirm2nd.Foreground = Brushes.Green;
+                            }
+                            else
+                            {
+                                MessageBox.Show("This insurance must be a secondary only to Medicare...", $"{selectedDefine.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
+                                Confirm2nd.Visibility = Visibility.Visible;
+                                Confirm2nd.Text = "We cannot accept this insurance...";
+                                Confirm2nd.Foreground = Brushes.Red;
+                            }
                         break;
                     case 6:
                         if (MessageBox.Show("Is this a pediatric patient(20 or younger)?", $"{selectedDefine.insuranceName}", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
@@ -370,6 +400,7 @@ namespace Insurances
 
                     default:
                         Confirm2nd.Visibility = Visibility.Hidden;
+                        MessageBox.Show("Please check your insuranceData.txt file for this insurance!", $"{selectedDefine.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
                         break;
                 }
 
@@ -431,6 +462,7 @@ namespace Insurances
                         break;
                 }
             }
+            
         }
     }
 }
