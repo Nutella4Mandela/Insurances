@@ -131,16 +131,16 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Pictures\Dr. Mueller.png" />
+    <Resource Include="Pictures\Kindler.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Pictures\Dr. Watson.png" />
+    <Resource Include="Pictures\Swan.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Pictures\Kao.png" />
+    <Resource Include="Pictures\Wilson.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Pictures\PA Dropcho.png" />
+    <Resource Include="Pictures\Benson.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

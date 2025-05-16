@@ -242,45 +242,45 @@ namespace Insurances
                     case 1:
                         if (Dropcho.IsChecked == true)
                         {
-                            MessageBox.Show("Dropcho cannot accept this insurance unless Dr.Watson or Dr.Mueller can cosign. Make sure to schedule the patient when either doctor is present.", $"{selectedDefiner.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
+                            MessageBox.Show("Swan cannot accept this insurance unless Dr.Wilson or Dr.Benson can cosign. Make sure to schedule the patient when either doctor is present.", $"{selectedDefiner.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
                             Confirm1st.Visibility = Visibility.Visible;
-                            Confirm1st.Text = "Dropcho needs a cosign!";
+                            Confirm1st.Text = "Swan needs a cosign!";
                             Confirm1st.Foreground = Brushes.Orange;
                         }
                         break;
                     case 2:
                         if (Kao.IsChecked == false)
                         {
-                            MessageBox.Show("This insurance must be a Dr.Kao only patient!", $"{selectedDefiner.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
+                            MessageBox.Show("This insurance must be a Dr.Kindler only patient!", $"{selectedDefiner.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
                             Confirm1st.Visibility = Visibility.Visible;
-                            Confirm1st.Text = "Please switch to Dr.Kao!";
+                            Confirm1st.Text = "Please switch to Dr.Kindler!";
                             Confirm1st.Foreground = Brushes.Orange;
                         }
                         break;
                     case 3:
                         if (Watson.IsChecked == false)
                         {
-                            MessageBox.Show("This insurance must be a Dr.Watson only patient!", $"{selectedDefiner.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
+                            MessageBox.Show("This insurance must be a Dr.Wilson only patient!", $"{selectedDefiner.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
                             Confirm1st.Visibility = Visibility.Visible;
-                            Confirm1st.Text = "Please switch to Dr.Watson!";
+                            Confirm1st.Text = "Please switch to Dr.Wilson!";
                             Confirm1st.Foreground = Brushes.Orange;
                         }
                         break;
                     case 4:
                         if (Mueller.IsChecked == false)
                         {
-                            MessageBox.Show("This insurance must be a Dr.Mueller only patient!", $"{selectedDefiner.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
+                            MessageBox.Show("This insurance must be a Dr.Benson only patient!", $"{selectedDefiner.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
                             Confirm1st.Visibility = Visibility.Visible;
-                            Confirm1st.Text = "Please switch to Dr.Mueller!";
+                            Confirm1st.Text = "Please switch to Dr.Benson!";
                             Confirm1st.Foreground = Brushes.Orange;
                         }
                         break;
                     case 5:
                         if (Dropcho.IsChecked == false)
                         {
-                            MessageBox.Show("This insurance must be a PA Dropcho only patient!", $"{selectedDefiner.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
+                            MessageBox.Show("This insurance must be a PA Swan only patient!", $"{selectedDefiner.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
                             Confirm1st.Visibility = Visibility.Visible;
-                            Confirm1st.Text = "Please switch to PA Dropcho!";
+                            Confirm1st.Text = "Please switch to PA Swan!";
                             Confirm1st.Foreground = Brushes.Orange;
                         }
                         break;
@@ -418,45 +418,45 @@ namespace Insurances
                     case 1:
                         if (Dropcho.IsChecked == true)
                         {
-                            MessageBox.Show("Dropcho cannot accept this insurance unless Dr.Watson or Dr.Mueller can cosign. Make sure to schedule the patient when either doctor is present.", $"{selectedDefine.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
+                            MessageBox.Show("Swan cannot accept this insurance unless Dr.Wilson or Dr.Benson can cosign. Make sure to schedule the patient when either doctor is present.", $"{selectedDefine.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
                             Confirm2nd.Visibility = Visibility.Visible;
-                            Confirm2nd.Text = "Dropcho needs a cosign!";
+                            Confirm2nd.Text = "Swan needs a cosign!";
                             Confirm2nd.Foreground = Brushes.Orange;
                         }
                         break;
                     case 2:
                         if (Kao.IsChecked == false)
                         {
-                            MessageBox.Show("This insurance must be a Dr.Kao only patient!", $"{selectedDefine.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
+                            MessageBox.Show("This insurance must be a Dr.Kindler only patient!", $"{selectedDefine.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
                             Confirm2nd.Visibility = Visibility.Visible;
-                            Confirm2nd.Text = "Please switch to Dr.Kao!";
+                            Confirm2nd.Text = "Please switch to Dr.Kindler!";
                             Confirm2nd.Foreground = Brushes.Orange;
                         }
                         break;
                     case 3:
                         if (Watson.IsChecked == false)
                         {
-                            MessageBox.Show("This insurance must be a Dr.Watson only patient!", $"{selectedDefine.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
+                            MessageBox.Show("This insurance must be a Dr.Wilson only patient!", $"{selectedDefine.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
                             Confirm2nd.Visibility = Visibility.Visible;
-                            Confirm2nd.Text = "Please switch to Dr.Watson!";
+                            Confirm2nd.Text = "Please switch to Dr.Wilson!";
                             Confirm2nd.Foreground = Brushes.Orange;
                         }
                         break;
                     case 4:
                         if (Mueller.IsChecked == false)
                         {
-                            MessageBox.Show("This insurance must be a Dr.Mueller only patient!", $"{selectedDefine.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
+                            MessageBox.Show("This insurance must be a Dr.Benson only patient!", $"{selectedDefine.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
                             Confirm2nd.Visibility = Visibility.Visible;
-                            Confirm2nd.Text = "Please switch to Dr.Mueller!";
+                            Confirm2nd.Text = "Please switch to Dr.Benson!";
                             Confirm2nd.Foreground = Brushes.Orange;
                         }
                         break;
                     case 5:
                         if (Dropcho.IsChecked == false)
                         {
-                            MessageBox.Show("This insurance must be a PA Dropcho only patient!", $"{selectedDefine.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
+                            MessageBox.Show("This insurance must be a PA Swan only patient!", $"{selectedDefine.insuranceName}", MessageBoxButton.OK, MessageBoxImage.Error);
                             Confirm2nd.Visibility = Visibility.Visible;
-                            Confirm2nd.Text = "Please switch to PA Dropcho!";
+                            Confirm2nd.Text = "Please switch to PA Swan!";
                             Confirm2nd.Foreground = Brushes.Orange;
                         }
                         break;
