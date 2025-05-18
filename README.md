@@ -26,3 +26,4 @@ There is another file that is needed in order for the program to start: "Insuran
 <br/>
 Within this file, you may notice that there is the insurance name, underscores, numbers, and a description. The underscores are what keeps things separate from their meanings. I will explain what these means and how this work by going step by step, but I will show you the simplistic version of this by showing an example.
 <br/>
+![image](Images/Example2.png)
