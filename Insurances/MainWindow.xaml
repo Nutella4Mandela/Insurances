@@ -302,11 +302,7 @@
 
     <Viewbox Stretch="Fill" StretchDirection="Both">
         <Grid Background="#FF22242B">
-
-            <ComboBox Style="{DynamicResource ComboBoxStyle1}" x:Name="ComboCompany" Margin="52,213,0,0" MinWidth="0" SelectionChanged="ComboBox_SelectionChanged" Height="52" MinHeight="0" MaxDropDownHeight="200" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Padding="14,3,5,3" ScrollViewer.VerticalScrollBarVisibility="Hidden" FlowDirection="LeftToRight" OpacityMask="#FFB10000" FontWeight="Bold" FontFamily="Calibri" BorderBrush="White" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="11" Background="White" Width="320" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-            <ComboBox Style="{DynamicResource ComboBoxStyle1}" x:Name="ComboX" Margin="440,213,53,244"  MinWidth="0" SelectionChanged="ComboBox_SelectionChanged" MinHeight="22" MaxDropDownHeight="200" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Padding="14,3,5,3" ScrollViewer.VerticalScrollBarVisibility="Hidden" FlowDirection="RightToLeft" OpacityMask="#FFB10000" FontWeight="Bold" FontFamily="Calibri" Background="White" BorderBrush="White" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="11"/>
-
-            <RadioButton x:Name="Kao" Margin="134,72,581,361" Width="90" Checked="RadioButton_Checked" FontWeight="Bold">
+            <RadioButton x:Name="Kao" Margin="92,72,631,361" Width="90" Checked="RadioButton_Checked" FontWeight="Bold">
                 <RadioButton.Template>
                     <ControlTemplate TargetType="RadioButton">
                         <Border x:Name="border"
@@ -321,6 +317,20 @@
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
                                 <Setter TargetName="border" Property="Background" Value="#FF9BF36B"/>
+                                <Trigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetProperty="Width" To="100" Duration="0:0:0.3"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.EnterActions>
+                                <Trigger.ExitActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetProperty="Width" To="90" Duration="0:0:0.3"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.ExitActions>
                             </Trigger>
                             <Trigger Property="IsChecked" Value="True">
                                 <Setter TargetName="border" Property="Background" Value="#FF389246"/>
@@ -337,7 +347,7 @@
                 </StackPanel>
             </RadioButton>
 
-            <RadioButton x:Name="Mueller" Margin="282,72,433,361" Width="90"  Foreground="White" Checked="RadioButton_Checked_1" >
+            <RadioButton x:Name="Mueller" Margin="266,71,457,362" Width="90"  Foreground="White" Checked="RadioButton_Checked_1" >
                 <RadioButton.Template>
                     <ControlTemplate TargetType="RadioButton">
                         <Border x:Name="border" Background="#FFA31300" CornerRadius="10" Padding="8">
@@ -347,6 +357,20 @@
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
                                 <Setter TargetName="border" Property="Background" Value="#FFDE7474"/>
+                                <Trigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetProperty="Width" To="100" Duration="0:0:0.3"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.EnterActions>
+                                <Trigger.ExitActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetProperty="Width" To="90" Duration="0:0:0.3"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.ExitActions>
                             </Trigger>
                             <Trigger Property="IsChecked" Value="True">
                                 <Setter TargetName="border" Property="Background" Value="#FF690A0A"/>
@@ -361,7 +385,7 @@
                     <Image x:Name="Image2" Source="/Pictures/Benson.png" Height="40" Margin="40,5,0,0"/>
                 </StackPanel>
             </RadioButton>
-            <RadioButton x:Name="Watson" Margin="424,72,291,362" Width="90"  Foreground="White" Checked="RadioButton_Checked_2" >
+            <RadioButton x:Name="Watson" Margin="457,72,266,362" Width="90"  Foreground="White" Checked="RadioButton_Checked_2" >
                 <RadioButton.Template>
                     <ControlTemplate TargetType="RadioButton">
                         <Border x:Name="border" Background="#FF00A3A2" CornerRadius="10" Padding="8">
@@ -371,6 +395,20 @@
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
                                 <Setter TargetName="border" Property="Background" Value="#FF78CDD8"/>
+                                <Trigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetProperty="Width" To="100" Duration="0:0:0.3"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.EnterActions>
+                                <Trigger.ExitActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetProperty="Width" To="90" Duration="0:0:0.3"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.ExitActions>
                             </Trigger>
                             <Trigger Property="IsChecked" Value="True">
                                 <Setter TargetName="border" Property="Background" Value="#FF068AA4"/>
@@ -385,7 +423,7 @@
                     <Image x:Name="Image3" Source="/Pictures/Wilson.png" Height="40" Margin="40,5,0,0"/>
                 </StackPanel>
             </RadioButton>
-            <RadioButton x:Name="Dropcho" Margin="569,72,146,358" MinHeight="0" MinWidth="0" MaxWidth="90"  Foreground="White" Checked="RadioButton_Checked_3" >
+            <RadioButton x:Name="Dropcho" Margin="634,72,89,362" Width="90"  Foreground="White" Checked="RadioButton_Checked_3" >
                 <RadioButton.Template>
                     <ControlTemplate TargetType="RadioButton">
                         <Border x:Name="border" Background="#FFA0009C" CornerRadius="10" Padding="8">
@@ -395,6 +433,20 @@
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
                                 <Setter TargetName="border" Property="Background" Value="#FFF596F2"/>
+                                <Trigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetProperty="Width" To="100" Duration="0:0:0.3"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.EnterActions>
+                                <Trigger.ExitActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetProperty="Width" To="90" Duration="0:0:0.3"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.ExitActions>
                             </Trigger>
                             <Trigger Property="IsChecked" Value="True">
                                 <Setter TargetName="border" Property="Background" Value="#FF731D70"/>
@@ -409,10 +461,13 @@
                     <Image x:Name="Image4" Source="/Pictures/Swan.png" Height="40" Margin="40,5,0,0"/>
                 </StackPanel>
             </RadioButton>
+
+            <ComboBox Style="{DynamicResource ComboBoxStyle1}" x:Name="ComboCompany" Margin="36,213,457,244" SelectionChanged="ComboBox_SelectionChanged" Height="52" MaxDropDownHeight="200" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Hidden" FlowDirection="LeftToRight" OpacityMask="#FFB10000" FontWeight="Bold" FontFamily="Calibri" BorderBrush="White" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="11" Background="White" Width="320"/>
+            <ComboBox Style="{DynamicResource ComboBoxStyle1}" x:Name="ComboX" Margin="457,213,36,244"  SelectionChanged="ComboBox_SelectionChanged" MaxDropDownHeight="200" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Hidden" FlowDirection="RightToLeft" OpacityMask="#FFB10000" FontWeight="Bold" FontFamily="Calibri" Background="White" BorderBrush="White" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="11" Width="320"/>
             <TextBlock x:Name="Confirm1st" HorizontalAlignment="Left" Margin="138,377,0,0" MinWidth="0" MinHeight="30" Text="TextBlock" TextAlignment="Center" VerticalAlignment="Top" Height="42" Width="128" TextWrapping="Wrap" FontWeight="Bold" Visibility="Hidden"/>
             <TextBlock x:Name="Confirm2nd" HorizontalAlignment="Left" Margin="565,377,0,0" MinWidth="0" MinHeight="30" Text="TextBlock" TextAlignment="Center" VerticalAlignment="Top" Height="42" Width="128" TextWrapping="Wrap" FontWeight="Bold" Visibility="Hidden"/>
-
-            <Button x:Name="Confirm" HorizontalAlignment="Center" Margin="0,390,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="Button_Click" IsCancel="True" Content="Confirm" Foreground="White" FontSize="16" FontWeight="Bold" Visibility="Hidden">
+            
+            <Button x:Name="Confirm" HorizontalAlignment="Center" Margin="0,390,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="Button_Click" IsCancel="True" Content="Confirm" Foreground="White" FontSize="16" FontWeight="Bold" Visibility="Hidden">
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
                         <Border x:Name="border" Background="#5bc3ff" CornerRadius="10" BorderBrush="#5bc3ff" BorderThickness="0">
@@ -422,7 +477,24 @@
                         </Border>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
+                                <Trigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetProperty="Height" To="70" Duration="0:0:0.3"/>
+                                            <DoubleAnimation Storyboard.TargetProperty="Width" To="110" Duration="0:0:0.3"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.EnterActions>
+                                <Trigger.ExitActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetProperty="Height" To="60" Duration="0:0:0.3"/>
+                                            <DoubleAnimation Storyboard.TargetProperty="Width" To="100" Duration="0:0:0.3"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.ExitActions>
                                 <Setter TargetName="border" Property="Background" Value="#FF78CDD8"/>
+                                
                             </Trigger>
                         </ControlTemplate.Triggers>
 
