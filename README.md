@@ -30,6 +30,7 @@ Within this file, you may notice that there is the insurance name, underscores, 
 <br/>
 # Step 1: Insurance Name
 This is where you put the name of the insurance. Make sure you add an underscore after each step to make this work. If not, then the program will have an error.
+<br/>
 ![image](Images/ErrorStartup.png)
 <br/>
 # Step 2: The Condition of The Insurance.
@@ -52,3 +53,28 @@ This is where you put the number, each having a meaning to it.
 7 = Insurance needs to be a PA Plan. Does this insurance have an insurance plan? This will bring a pop up that will ask you to pick Yes or No.
 <br/>
 8 = This is a secondary only insurance, but it may be accepted if it has OON benefits. Does it have OON benefits? This will bring a pop up that will ask you to pick Yes or No.
+<br/>
+# Step 2: Insurance Referral
+This is where you put the number once again, each having meaning.
+<br/>
+1 = Patient needs a referral from his insurance in order for them to be seen. Please inform them that they need to speak with their PCP so that they can receive a referral.
+<br/>
+2 = Nothing; It skips the condition entirely, basically knowing that a referral is not needed for this patient.
+<br/>
+# Step 3: Doctors
+Each doctor has a corresponding number as follows:
+<br/>
+0 = All doctors
+<br/>
+1 = Swan cannot accept this insurance unless Dr.Wilson or Dr.Benson can cosign. Make sure to schedule the patient when either doctor is present.
+<br/>
+2 = Dr.Kindler
+<br/>
+3 = Dr.Wilson
+<br/>
+4 = Dr.Benson
+<br/>
+5 = Dr.Swan
+<br/>
+# Step 4: Description
+This is where you put the description of the insurance. It will not show up on the program and you can put anything you want. This is mostly used for reference if you're lost on what this insurance can do. Just make sure to not keep it blank or else there will be an error.
