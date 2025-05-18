@@ -18,3 +18,6 @@ To choose your primary insurance, you must click on the box on the left side of 
 Once you pick a primary insurance that the patient has, you are ready to press the confirm button to see if they accept the insurance with this doctor. In my example, I chose "UPMC For You" as the primary insurance and "Loomis" as the secondary insurance. Simple as that! That's all there is to it!
 <br/>
 ![image](Images/Result.png)
+<br/>
+# Insurance Data
+There is another file that is needed in order for the program to start: "InsuranceData.txt". This is where the list of insurance names and specifications are stored. If you open the file, you can see a plethora of different insurances, with a number all the way on the top. The number signifies how many insurances are in the dropdown list once you start the program. If the number has a letter or the number is above the list, the program will pop an error when you start it up, telling you that there might be some inconsistencies within the text file. You need the Insurance Data file in order for the program to work. You can also make your own, but make sure it is called "InsuranceData.txt".
