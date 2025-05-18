@@ -27,3 +27,28 @@ There is another file that is needed in order for the program to start: "Insuran
 Within this file, you may notice that there is the insurance name, underscores, numbers, and a description. The underscores are what keeps things separate from their meanings. I will explain what these means and how this work by going step by step, but I will show you the simplistic version of this by showing an example.
 <br/>
 ![image](Images/Example2.png)
+<br/>
+# Step 1: Insurance Name
+This is where you put the name of the insurance. Make sure you add an underscore after each step to make this work. If not, then the program will have an error.
+![image](Images/ErrorStartup.png)
+<br/>
+# Step 2: The Condition of The Insurance.
+This is where you put the number, each having a meaning to it.
+<br/>
+0 = I am not sure if we do accept this. Please speak to your Billing Department or Office Administrator for more details!
+<br/>
+1 = We accept this insurance!
+<br/>
+2 = We do not accept this insurance!
+<br/>
+3 = Does the patient have any Out Of Network benefits? This will bring a pop up that will ask you to pick Yes or No.
+<br/>
+4 = This insurance must be a secondary only...
+<br/>
+5 = This insurance must be a secondary only to Medicare...
+<br/>
+6 = Is this a pediatric patient(20 or younger)? This will bring a pop up that will ask you to pick Yes or No.
+<br/>
+7 = Insurance needs to be a PA Plan. Does this insurance have an insurance plan? This will bring a pop up that will ask you to pick Yes or No.
+<br/>
+8 = This is a secondary only insurance, but it may be accepted if it has OON benefits. Does it have OON benefits? This will bring a pop up that will ask you to pick Yes or No.
